@@ -1,3 +1,12 @@
+import styled from "styled-components"
+import Footer from "./Footer"
+
+const StyledApp = styled.div``
+
 export default function App() {
-  return <div>App</div>
+  return (
+    <StyledApp>
+      <Footer />
+    </StyledApp>
+  )
 }
