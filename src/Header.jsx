@@ -113,7 +113,7 @@ const NavLink = styled.a`
 `
 
 export default function Header() {
-  const [isOpen, setIsOpen] = useState(true)
+  const [isOpen, setIsOpen] = useState(false)
 
   return (
     <StyledHeader>
