@@ -16,10 +16,10 @@ const StyledCreation = styled.div`
 const CreationImg = styled.img`
   display: block;
   width: 100%;
-  content: url(${({ url }) => `../public/mobile/${url}`});
+  content: url(${({ url }) => `./mobile/${url}`});
 
   @media (min-width: 48em) {
-    content: url(${({ url }) => `../public/desktop/${url}`});
+    content: url(${({ url }) => `./desktop/${url}`});
   }
 `
 

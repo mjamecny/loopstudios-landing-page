@@ -3,7 +3,7 @@ import styled from "styled-components"
 
 const StyledHeader = styled.header`
   background: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)),
-    url("../public/mobile/image-hero.jpg");
+    url("./mobile/image-hero.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   padding-block: 4.8rem;
@@ -11,7 +11,7 @@ const StyledHeader = styled.header`
 
   @media (min-width: 48em) {
     background: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)),
-      url("../public/desktop/image-hero.jpg");
+      url("./desktop/image-hero.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     height: auto;

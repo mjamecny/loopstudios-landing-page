@@ -18,19 +18,13 @@ const Container = styled.div`
   }
 `
 
-// const Image = styled.div`
-//   background: url(${({ url }) => `../public/mobile/${url}`});
-//   width: 654px;
-//   height: 448px;
-// `
-
 const Image = styled.img`
   display: block;
   width: 100%;
-  content: url("../public/mobile/image-interactive.jpg");
+  content: url("./mobile/image-interactive.jpg");
 
   @media (min-width: 48em) {
-    content: url("../public/desktop/image-interactive.jpg");
+    content: url("./desktop/image-interactive.jpg");
   }
 `
 
@@ -79,7 +73,6 @@ export default function Info() {
   return (
     <StyledInfo>
       <Container>
-        {/* <Image url="image-interactive.jpg" /> */}
         <Image src="mobile/image-interactive.jpg" alt="interactive image" />
         <Content>
           <Heading>The Leader in Interactive VR</Heading>
